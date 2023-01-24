@@ -37,7 +37,10 @@ export default function Home() {
   };
 
   const triggerLoginEventManual = async () => {
-    await axios.post('/api/hello');
+    await axios.post('/api/analytics', {
+      name: 'Login',
+      user: 'Bolub',
+    });
   };
 
   return (
