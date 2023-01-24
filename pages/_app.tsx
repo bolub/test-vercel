@@ -6,7 +6,7 @@ import PlausibleProvider from 'next-plausible';
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <PlausibleProvider
-      domain='test-kikin-events.surge.sh'
+      domain='test-kikin.vercel.app'
       taggedEvents
       trackOutboundLinks
     >

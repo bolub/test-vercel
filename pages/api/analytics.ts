@@ -20,8 +20,8 @@ export default async function handler(
 
   const dataToSend = {
     name,
-    url: 'http://test-kikin-events.surge.sh',
-    domain: 'test-kikin-events.surge.sh',
+    url: 'https://test-kikin.vercel.app',
+    domain: 'test-kikin.vercel.app',
     ...props
   };
 
