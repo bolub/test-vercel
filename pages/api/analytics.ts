@@ -22,7 +22,7 @@ export default async function handler(
     name,
     url: 'https://test-kikin.vercel.app',
     domain: 'test-kikin.vercel.app',
-    ...props
+    props
   };
 
   const headers = {
